@@ -28,14 +28,59 @@
 
         p{
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-           
-        }
 
-        nav{
-          background-color: rgba(255, 255, 255, 0.836);
-          box-shadow:60px;
-          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        }
+       }
+        .navbar {
+        width: 100%;
+        background: #05176b;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+    }
+
+    .nav-left {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .nav-left a {
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        transition: 0.3s;
+    }
+
+    .nav-left a:hover {
+        color: #4da3ff;
+    }
+
+    .nav-logo {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+
+    .nav-right input {
+        padding: 6px 10px;
+        width: 160px;
+        border-radius: 5px;
+        border: none;
+    }
+
+    .search-btn {
+        padding: 6px 12px;
+        margin-left: 5px;
+        border: none;
+        border-radius: 5px;
+        background: #0078ff;
+        color: white;
+        cursor: pointer;
 
         #LearnMr{
 
@@ -66,37 +111,21 @@
 
 <body>
 
-      <nav class="navbar navbar-expand-sm navbar-light">
+    <nav class="navbar">
+    <div class="nav-left">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcHVuqgJPs1mFipnjsVwsFIYiYwTaulS-1_w&s" class="nav-logo">
+        <a href="index.html">Home</a>
+        <a href="page2.html">Courses Offer</a>
+        <a href="page3.html">Enroll Now</a>
+        <a href="page4.html">Contact Us</a>
+        <a href="page5.html">About our Members</a>
+    </div>
 
-  <div class="container-fluid">
-
-    <a class="navbar-brand" href="#"><img src="https://static1.squarespace.com/static/664c7ae50eea9c731b37e817/t/66a84103b86799259e31ff25/1722302723941/Header.png?format=1500w " style="height:60px;"></a>
-
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="mynavbar">
-
-      <ul class="navbar-nav me-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="page2.html">Student Life</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="page3.html">About us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="page4.html">Enroll</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="page5.html">Contact us</a>
-        </li>
-      </ul>
-
-      <form class="d-flex">
-        <input class="form-control me-2" type="text" placeholder="Search">
-        <button class="btn btn-primary" type="button">Search</button>
+    <div class="nav-right">
+        <input type="text" placeholder="Search">
+        <button class="search-btn">Search</button>
+    </div>
+</nav>
       </form>
     </div>
   </div>
@@ -229,4 +258,5 @@
 
         
 </body>
+
 </html>
