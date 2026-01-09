@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home</title>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background-color: #ffffff;
+        color: #1a1a1a;
+    }
+
+
+    .top-header {
+        background-color: #0f1b66;
+        color: white;
+        text-align: center;
+        padding: 30px 20px;
+    }s
+    .top-header h1 {
+        margin: 0;
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+    .top-line {
+        width: 200px;
+        height: 2px;
+        background-color: white;
+        margin: 15px auto;
+    }
+
+    .top-header h2 {
+        font-size: 24px;
+        margin: 10px 0 5px;
+    }
+
+    .top-header p {
+        font-size: 14px;
+        margin: 0 auto;
+        max-width: 600px;
+    }
+
+    
+    .main-img {
+        width: 70%;
+        margin: 30px auto;
+        display: block;
+        border-radius: 15px;
+        box-shadow: 0 3px 12px rgba(0,0,0,0.2);
+    }
+
+    .intro {
+        width: 70%;
+        margin: 20px auto;
+        text-align: center;
+        line-height: 1.6;
+        font-size: 15px;
+    }
+
+    .section-title {
+        font-size: 30px;
+        color: #0f1b66;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .section-line {
+        width: 90%;
+        margin: 20px auto;
+        border-top: 2px solid #0f1b66;
+    }
+
+    .programs {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 90%;
+        margin: auto;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .program-card img {
+        width: 100%;
+        border-radius: 15px;
+        height: 180px;
+        object-fit: cover;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+
+    .program-card p {
+        margin-top: 8px;
+        font-weight: bold;
+        color: #0f1b66;
+    }
+
+    .programs-bottom {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 60%;
+        margin: 20px auto;
+        gap: 20px;
+        text-align: center;
+    }
+
+
+    .campuses {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 90%;
+        margin: auto;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .campus-card img {
+        width: 100%;
+        border-radius: 15px;
+        height: 180px;
+        object-fit: cover;
+        box-shadow: 0 2px 10px rgba(5, 8, 99, 0.2);
+    }
+
+    .campus-card p {
+        margin-top: 10px;
+        font-weight: bold;
+        color: #0f1b66;
+    }
+        .navbar {
+        width: 100%;
+        background: #05176b;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+    }
+
+    .nav-left {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .nav-left a {
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        transition: 0.3s;
+    }
+
+    .nav-left a:hover {
+        color: #4da3ff;
+    }
+
+    .nav-logo {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+
+    .nav-right input {
+        padding: 6px 10px;
+        width: 160px;
+        border-radius: 5px;
+        border: none;
+    }
+
+    .search-btn {
+        padding: 6px 12px;
+        margin-left: 5px;
+        border: none;
+        border-radius: 5px;
+        background: #0078ff;
+        color: white;
+        cursor: pointer;
+    }
+   p{
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-left">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcHVuqgJPs1mFipnjsVwsFIYiYwTaulS-1_w&s" class="nav-logo">
+        <a href="index.html">Home</a>
+        <a href="page2.html">Courses Offer</a>
+        <a href="page3.html">Enroll Now</a>
+        <a href="page4.html">Contact Us</a>
+        <a href="page5.html">About our Members</a>
+    </div>
+
+    <div class="nav-right">
+        <input type="text" placeholder="Search">
+        <button class="search-btn">Search</button>
+    </div>
+</nav>
+<br>
+<div class="top-header">
+    <h1>O.B. Montessori Center</h1>
+    <div class="top-line"></div>
+    <h2>Educating Future Leaders</h2>
+    <p>
+        At Operation Brotherhood Montessori Center, each child is nurtured in the holistic method of Dr. Maria Montessori.
+    </p>
+</div>
+
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4VDgQRBufEWtVfXYBwv8PmsncPszNZ3ZueQ&s" class="main-img" alt="OBMC Students">
+
+
+<div class="intro">
+    <p>
+        Welcome to the O.B. Montessori Center in the Philippines!<br><br>
+        We are a progressive pre-k to 12 co-educational school, offering a viable alternative to international schools. 
+        At OBMC, we blend tradition and innovation to prepare a child for life.
+        <br><br>
+        Our mission is to transform our students into self-developing and productive individuals who can succeed, direct, 
+        and influence the future of an ever-changing world.
+        <br><br>
+        Explore our programs and discover the vibrant community that makes OBMC a unique place for a child to grow and develop.
+    </p>
+</div>
+
+<div class="section-line"></div>
+<h2 class="section-title">Programs</h2>
+
+<div class="programs">
+    <div class="program-card">
+        <img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/48d1c8ef-6412-4b7b-81fe-a50d7f1189d6/Casa+-+Admission+Requirements">
+        <p>Casa (Ages 3–5)</p>
+    </div>
+
+    <div class="program-card">
+        <img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/053bbc8c-f68a-4a6f-ac1e-73adfc595e01/O.B.+Montessori+Center+Grade+School+Primary.jpg">
+        <p>Primary Grade School (Ages 6–8)</p>
+    </div>
+
+    <div class="program-card">
+        <img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/fdabba98-61bf-4946-a1e2-246c208f13f8/1+20240226_094559+copy.jpg">
+        <p>Intermediate Grade School (Ages 9–12)</p>
+    </div>
+</div>
+
+<div class="programs-bottom">
+    <div class="program-card">
+        <img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/4069ea7e-83d6-4367-8825-71aa1ad6b88d/JUNIOR+HIGH+SCHOOL+PROGRAM+-+HERO+IMAGE+-+JAR_3329a.jpg">
+        <p>Junior High School (Ages 13–16)</p>
+    </div>
+
+    <div class="program-card">
+        <img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/0bd933b3-baff-49ad-a136-becbc219422a/JAR_3796a.jpg">
+        <p>Senior High School (Ages 17–18)</p>
+    </div>
+</div>
+
+
+<div class="section-line"></div>
+<h2 class="section-title">Campuses</h2>
+
+<div class="intro">
+    <p>
+        Our campuses offer accessible, high-quality Montessori education in a nurturing environment for learning, 
+        creativity, and development.
+        <br><br>
+        Come and visit our facilities to experience what each OBMC campus can offer your child and family.
+    </p>
+</div>
+
+<div class="campuses">
+    <div class="campus-card">
+        <img src="https://obmontessori.orangeapps.ph/landing/obmontessori/images/Angeles%20Facade.jpg">
+        <p>Angeles</p>
+    </div>
+
+    <div class="campus-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_cz5-tybhqsz1umQcsnezqDDKj3jlAEIUfA&s">
+        <p>Fairview</p>
+    </div>
+
+    <div class="campus-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA-5G94AQC477uTv8eK9_Cpjyp1LOkE6EA9Q&s">
+        <p>Greenhills</p>
+    </div>
+
+    <div class="campus-card">
+        <img src="https://obmontessori.orangeapps.ph/landing/obmontessori/images/Las%20Pinas%20Facade.jpg">
+        <p>Las Piñas</p>
+    </div>
+
+    <div class="campus-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/O.B._Montessori_Center%2C_Sta._Ana%2C_Manila%2C_June_2023.jpg/1200px-O.B._Montessori_Center%2C_Sta._Ana%2C_Manila%2C_June_2023.jpg">
+        <p>Sta. Ana</p>
+    </div>
+</div>
+
+</body>
+</html>
